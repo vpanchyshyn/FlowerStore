@@ -1,9 +1,14 @@
 package ua.edu.ucu.apps;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+@Getter
+@Setter
 public class Store {
     private List<Flower> flowers;
 
