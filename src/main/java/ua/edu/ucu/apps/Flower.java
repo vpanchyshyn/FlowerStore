@@ -15,13 +15,13 @@ import lombok.NoArgsConstructor;
 public class Flower {
 
     private FlowerColor color;
-    // private FlowerType flowerType;
+    private FlowerType flowerType;
     private double price;
     private double sepalLengh;
 
     public Flower(Flower flower) {
         this.color = flower.color;
-        // this.flowerType = flower.flowerType;
+        this.flowerType = flower.flowerType;
         this.price = flower.price;
         this.sepalLengh = flower.sepalLengh;
     }
